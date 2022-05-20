@@ -5,7 +5,7 @@ const Intro = () => {
     <div className="intro">
       <div className="intro-left">
         <div className="intro-left-wrapper">
-          <h3 className="intro-content">Hello my name is</h3>
+          <h3 className="intro-content">Herro my name is</h3>
           <h2 className="intro-name">Miran Salih</h2>
           <div className="intro-title">
             <div className="intro-title-wrapper">
