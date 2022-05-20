@@ -1,0 +1,45 @@
+:root {
+  --grayish: rgb(58, 71, 80);
+  --gray: rgb(211, 214, 219);
+  --red: rgb(190, 49, 68);
+}
+
+.about {
+  height: 100vh;
+  background-color: var(--grayish);
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text-head {
+  font-size: 60px;
+  font-weight: 400;
+  color: var(--red);
+  margin: 20px;
+}
+
+.about-text-info {
+  color: var(--gray);
+  width: 30vw;
+  flex: 1;
+}
+
+.about-skills-head {
+  font-size: 30px;
+  color: var(--red);
+}
+
+.about-skills-skills {
+  color: var(--gray);
+}
+
+.skills {
+  font-weight: 700;
+}
